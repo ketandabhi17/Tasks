@@ -1,7 +1,9 @@
+01-09-2021 -> Create one html file with name, email and file element. On submit display entered data on second html page and play video directly whichever video user selected from file control and also display current address using geolocation concept
+
 02-09-2021 -> done with css animations and transform
 
 03-09-2021 -> apply one practicals of each topic listed above
-Find circumstances of a circle
+Find circumstances of a  circle
 Make multiple objects of the same class and call it Accordingly
 Apply multilevel inheritance
 Create object of only last class and Call parent class’ s functions
