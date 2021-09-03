@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page</title>
+</head>
+
+<body>
+    <form action="2.html">
+        <legend>form <br><br>
+            <label>Name:
+                <input type="text" name="name" id="name" /></label>
+            <br><br><label>Email
+                <input type="text" name="email" id="email" /></label>
+            <br><br><label>File:
+                <input type="file" name="file" id="file" accept="video/mp4" /></label>
+            <br><br><input type="submit" value="Submit" onclick="getData()">
+        </legend>
+    </form>
+    <script>
+        function getData() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+
+
+            localStorage.setItem("txtValue", name);
+            localStorage.setItem("txtValue1", email);
+
+            function filename(myfile) {
+                var file = myfile.fils[0];
+                var filename = file.name;
+                localStorage.setItem('txtvalue2', filename);
+            }
+        }
+// function readURL(input)
+// {
+//     document.getElementById("file").style.display = "block";
+
+//     if (input.files && input.files[0]) {
+//         var reader = new FileReader();
+
+//         reader.onload = function (e) {
+//             document.getElementById('file').src =  e.target.result;
+//         }
+
+//         reader.readAsDataURL(input.files[0]);
+//     }
+// }
+
+
+    </script>
+</body>
+
+</html>
