@@ -22,20 +22,7 @@
     </form>
     <script>
         function getData() {
-            var name = document.getElementById("name").value;
-            var email = document.getElementById("email").value;
-
-
-            localStorage.setItem("txtValue", name);
-            localStorage.setItem("txtValue1", email);
-
-            function filename(myfile) {
-                var file = myfile.fils[0];
-                var filename = file.name;
-                localStorage.setItem('txtvalue2', filename);
-            }
-        }
-// function readURL(input)
+            var name = document.getEle// function readURL(input)
 // {
 //     document.getElementById("file").style.display = "block";
 
@@ -48,9 +35,19 @@
 
 //         reader.readAsDataURL(input.files[0]);
 //     }
-// }
+// }mentById("name").value;
+            var email = document.getElementById("email").value;
 
 
+            localStorage.setItem("txtValue", name);
+            localStorage.setItem("txtValue1", email);
+
+            function filename(myfile) {
+                var file = myfile.fils[0];
+                var filename = file.name;
+                localStorage.setItem('txtvalue2', filename);
+            }
+        }
     </script>
 </body>
 
