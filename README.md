@@ -1,3 +1,30 @@
+26-08-2021->  Create a new user and set their password. Give the new user sudo permissions for privileged operations on the system. Switch to the new user and test their permissions by using sudo to run a command that requires root access.
+ Create a directory and in that create a file and set all permission for specific files and directories.
+ Allow the specific user to read and write the file. Other users in the same group should be able to read the file, but the public user should have no permission to read, write or execute.
+ How to check running process in Linux
+ Learn how to install particular packages on Linux
+ How to check log files of particular server
+
+27-08-2021-> Pull an Apache image from registry and create a container of the image and login to the running container
+    How to check the docker service status on local environment
+    How to remove running docker images and docker containers
+    Install lando on the local environment and setup a simple application of wordpress with lando
+
+30-08-2021->Create ur own personal GitHub account and create a sample repository with an application
+    Clone the project repository into ur local and make changes in any one of the files and try to push the changed files to the GitHub repository.
+    How to revert the committed changes in a repository
+    How to create a new branch from master branch that should contain the files of master branch
+    How to undo all the commits after the specified commit and preserves the changes locally
+    Learn when to use merge and rebase commands
+    How to bring our local environment up to date
+    How to fix merge conflicts in git
+    How to undo the last commit in git
+    How to rename the branch name after it was create
+
+31-08-2021->analysis on sass
+    What is sass? Use and benefits
+    Perform one practical example
+
 01-09-2021 -> Create one html file with name, email and file element. On submit display entered data on second html page and play video directly whichever video user selected from file control and also display current address using geolocation concept
 
 02-09-2021 -> done with css animations and transform
@@ -63,4 +90,13 @@ https://gitexercises.fracz.com/ visit this site and do exercises accordingly
 
 13-09-2021
 https://gitexercises.fracz.com/ visit this site and do exercises accordingly
+
+14-09-2021
+1. Make whole dynamic form. Dynamic form means do not write anything in body section of HTML and
+create everything using JS. Onload of body form should be displayed.
+That form should include following fields
+Name, Password, Phone number, Email-id, Address, State, City, Submit button
+--On submittion of this form entered details should be listed on the next page
+--In state dropdown list atleast two states and on selection of state city’s dropdown should be filled accordingly
+
 Tasks
