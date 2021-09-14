@@ -54,5 +54,13 @@ Reference. Which is better to use and why?
 11.Pass array into the function and update the values into the
 function and after that print an array. Check whether it
 Prints original array or an updated array
- 
+
+
+09-09-2021
+Apply practicals on static function and variables
+https://gitexercises.fracz.com/ visit this site and do exercises accordingly
+
+
+13-09-2021
+https://gitexercises.fracz.com/ visit this site and do exercises accordingly
 Tasks
