@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    display: flex;
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="box" id="box">
+
+        <script>
+            var k = 0;
+            document.getElementById("box").addEventListener("click", ()=>{
+                var i = Math.floor(Math.random()*400+1);
+                var j = Math.floor(Math.random()*400+1);
+                document.querySelector(".box").style.marginLeft = i + "px";
+                document.querySelector(".box").style.marginTop = j + "px";
+                k++;
+                
+            })
+            
+            setTimeout(myTimer, 30000);
+            
+            function myTimer(){
+                alert(k);
+            }
+            
+            </script>
+</div>
+</div>
+
+
+</body>
+</html>
