@@ -99,4 +99,7 @@ Name, Password, Phone number, Email-id, Address, State, City, Submit button
 --On submittion of this form entered details should be listed on the next page
 --In state dropdown list atleast two states and on selection of state city’s dropdown should be filled accordingly
 
+15-09-2021
+Take one div element of 500 X 500Take one div element of 500 X 500. Within that div take another div of 100 X 100. On each click of inner div it’s posistion should be changed and display again on some random position this should be go on till 30 seconds. After completion of 30 seconds count number of clicks and display in alert.. Within that div take another div of 100 X 100. On each click of inner div it’s posistion should be changed and display again on some random position this should be go on till 30 seconds. After completion of 30 seconds count number of clicks and display in alert.
+
 Tasks
