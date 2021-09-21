@@ -107,4 +107,11 @@ Save all your practicals as Assignment 1, Assignment 2 and onwards.
 Make one html file and take 3 buttons name as Assignment 1, Assignment 2 and Assignment 3 .
 Onclick of each button that file should be opened on the same URL without redirecting.
 
+20-09-2021
+--JS Events
+--JS Fetch and JS Callbacks
+--JS Asynchronous
+--JS Promises
+--Schedulers
+
 Tasks
