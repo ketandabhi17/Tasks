@@ -114,4 +114,10 @@ Onclick of each button that file should be opened on the same URL without redire
 --JS Promises
 --Schedulers
 
+21-09-2021
+--Destructuring Arrays
+--Destructuring Objects
+--Practicals of promise, Schedulers
+--ES6 Classes
+
 Tasks
