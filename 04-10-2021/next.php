@@ -3,8 +3,8 @@
 <?php
 $name = $_POST['name'];
 $email = $_POST['email'];
-echo $first_name;
-echo $last_name;
+echo $name;
+echo $email;
 ?>
 </body>
 </html>
