@@ -131,5 +131,26 @@ Generics
 24-09-2021
 Perform practicals on all topics from functional programmers
 
+28-09-2021
+Narrowing
+More on functions
+Object types
+Type manipulation
+
+29-09-2021
+Creating types from types
+Generics
+KeyOf type operator
+TypeOf type operator
+Indexed access types
+Conditional types
+
+01-10-2021
+Template Literal types
+
+04-10-2021
+practicals on php
+echo vs print, break and continue,global
+form
 
 Tasks
