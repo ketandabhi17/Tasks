@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Task of 16-09-2021 </h2>
+
+<div id="demo">
+<p>Date wise assignments</p>
+<button type="button" onclick="loadDoc()">15-09-2021</button>
+<button type="button" onclick="loadDoc1()">13-09-2021</button>
+<button type="button" onclick="loadDoc2()">02-09-2021</button>
+<button type="button" onclick="loadDoc3()">30-08-2021</button>
+</div>
+
+<script>
+function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+  xhttp.open("GET", "15-09-2021.html");
+  xhttp.send();
+
+}
+
+function loadDoc1() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+  xhttp.open("GET", "13-09-2021.txt");
+  xhttp.send();
+
+}
+
+function loadDoc2() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+  xhttp.open("GET", "02-09-2021.html");
+  xhttp.send();
+
+}
+
+function loadDoc3() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+  xhttp.open("GET", "30-08-2021.txt");
+  xhttp.send();
+
+}
+
+
+</script>
+
+</body>
+</html>
