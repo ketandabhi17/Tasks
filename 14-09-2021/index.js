@@ -3,7 +3,11 @@ function ketan(){
     var form = document.createElement("form");
     form.setAttribute("method", "post");
     form.setAttribute("id", "form");
+<<<<<<< HEAD
     form.setAttribute("action","form2.html")
+=======
+    form.setAttribute("action","new.html")
+>>>>>>> c301b8dfe3ece3beba63b0f3aec56e747ef17356
     form.setAttribute("onsubmit", "set()")
 
     var div = document.createElement('div');
@@ -145,9 +149,12 @@ function city(){
     
     if (x == 'Gujarat'){
         optionx.innerHTML = "Ahmedabad";
+<<<<<<< HEAD
         optionx.innerHTML = "Bhavnagar";
         optionx.innerHTML = "Rajkot";
         optionx.innerHTML = "Botad";
+=======
+>>>>>>> c301b8dfe3ece3beba63b0f3aec56e747ef17356
         optiony.innerHTML = "Gandhinagar";
     } else if (x == 'Maharastra') {
         optionx.innerHTML = "Mumbai";

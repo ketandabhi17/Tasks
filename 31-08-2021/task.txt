@@ -1,6 +1,7 @@
 Analysis on sass
 What is sass? Use and benefits
 Perform one practical example
+<<<<<<< HEAD
 
 
 
@@ -10,3 +11,5 @@ Perform one practical example
 
 
 resrtuctng array
+=======
+>>>>>>> c301b8dfe3ece3beba63b0f3aec56e747ef17356
