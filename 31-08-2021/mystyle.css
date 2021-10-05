@@ -1,0 +1,22 @@
+
+
+
+html, body, ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color:blue;
+  }
+  
+
+  .danger {
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid skyblue;
+    background-color: yellow;
+  }  
